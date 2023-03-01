@@ -1,0 +1,9 @@
+//导入scss文件时，其命名前面加下划线“_”，则告诉scss不要将其编译成css文件，但是在导入语句时则不需要加入下划线
+//config
+@import 'variables';
+//layout
+@import 'reboot';
+//mixin
+@import 'mixin';
+//button组件样式
+@import '../components/Button/style';
